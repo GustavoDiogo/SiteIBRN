@@ -12,7 +12,7 @@
     <title>Represa Nova</title>
 
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/justified-nav.css" rel="stylesheet">   
 
 <script type="text/javascript">
@@ -79,23 +79,25 @@
     
   </head>
   <body>  
-      <nav class="navbar navbar-default navbar-fixed-top" style="border-bottom-right-radius:60px;border-bottom-left-radius:60px;background-color:#ffe2e4">       
+      <nav class="navbar navbar-default navbar-fixed-top" style="border-bottom-right-radius:60px;border-bottom-left-radius:60px;background-color:#ffe2e4">  
+       <div class="container">      
         <div class="navbar-header">
-          <button style="height:90px;background-color:#efefef" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">            
+          <button style="height:90px;background-color:#efefef;border-radius: 50px" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">            
             <span style="background-color:#ff2d2d" class="icon-bar"></span>
             <span style="background-color:#ff2d2d" class="icon-bar"></span>
             <span style="background-color:#ff2d2d" class="icon-bar"></span>         
           </button>
           <a href="index.php">
               <div style="width:200px">
-                  <img style="max-width: 100%; height: 128px; width: 128px;margin-left: 50px" src="imagens/logo_represanova.png"></span>
+                  <img style="max-width: 100%; height: 80px; width: 80px;margin-left: 50px" src="imagens/logo_represanova.png"></span>
               </div>
           </a>
         </div>
-        <div class="container" style="max-width: 961px">
-          <div id="navbar" class="navbar-collapse collapse" style="max-height:100%">        
-            <ul class="nav navbar-nav">
-              <br><br>
+        <div class="container">
+          <div id="navbar" class="navbar-collapse collapse">    
+          <div style="padding-bottom: 1em"></div>     
+            <ul class="nav navbar-nav" style="max-height: 100px"> 
+            <div style="padding-bottom: 0.5em"></div>               
               <li class="active"><a style='background-color:#87595b;color:white;border-radius:25px' href="index.php">Home</a></li>
 
               <li><a style="color:#87595b" href="igreja.php">A Igreja</a></li>
@@ -117,7 +119,8 @@
       </nav>
     </body>
 
-    <div style="padding-bottom: 14.5em"></div>
+    <div style="padding-bottom: 8.4em"></div> 
+     <div class="container">     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
