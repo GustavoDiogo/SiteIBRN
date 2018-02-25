@@ -1,19 +1,5 @@
 
-<?php
 
-
-switch($pagina) {
-case"home": $ativohome = "class='active'"; break;
-case"igreja": $ativoigreja = "class='active'"; break;
-case"ebd": $ativoebd = "class='active'"; break;
-case"devocionais": $ativodevocionais = "class='active'"; break;
-case"cultos": $ativocultos = "class='active'"; break;
-case"ministerios": $ativoministerios = "class='active'"; break;
-case"contato": $ativocontato = "class='active'"; break;
-case"represart": $ativorepresart = "class='active'"; break;
-}
-
-?>
 
 
 <!DOCTYPE html>
@@ -26,7 +12,7 @@ case"represart": $ativorepresart = "class='active'"; break;
     <title>Represa Nova</title>
 
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/justified-nav.css" rel="stylesheet">   
 
 <script type="text/javascript">
@@ -42,6 +28,54 @@ case"represart": $ativorepresart = "class='active'"; break;
   })();
 </script>
 <!-- End Piwik Code --> 
+
+<style type="text/css">
+  
+  
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
+  
+  .foto-bloco{
+    padding-bottom:7px;
+    padding-top:5px;
+  
+  }
+  
+  .col-center{
+  margin:0 auto;
+  } 
+
+  @media (min-width: 1200px) {
+    
+    .blocos{
+    margin-left:15px;
+    }
+    
+    .blocos2{
+    margin-left:15px;
+    margin-top:30px;
+    }
+    
+  }
+  
+  .display-table{
+    display: table;
+    table-layout: fixed;
+  }
+
+  .display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+  .list-unstyled li{
+    margin-bottom:5px;
+  }
+  
+  </style>
     
   </head>
   <body>  
@@ -62,29 +96,28 @@ case"represart": $ativorepresart = "class='active'"; break;
           <div id="navbar" class="navbar-collapse collapse" style="max-height:100%">        
             <ul class="nav navbar-nav">
               <br><br>
-              <li class="active" <? echo $ativohome ?><a style='background-color:#87595b;color:white;border-radius:25px' href="index.php">Home</a></li>
+              <li class="active"><a style='background-color:#87595b;color:white;border-radius:25px' href="index.php">Home</a></li>
 
-              <li <? echo $ativoigreja ?><a style="color:#87595b" href="igreja.php">A Igreja</a></li>
+              <li><a style="color:#87595b" href="igreja.php">A Igreja</a></li>
 
-              <li <? echo $ativoebd ?><a style="color:#87595b" href="ebd.php">Escola Bíblica</a></li>
+              <li><a style="color:#87595b" href="ebd.php">Escola Bíblica</a></li>
 
-              <li <? echo $ativodevocionais ?><a style="color:#87595b" href="devocionais.php">Devocionais</a></li>
+              <li><a style="color:#87595b" href="devocionais.php">Devocionais</a></li>
 
-              <li <? echo $ativocultos ?><a style="color:#87595b" href="cultos.php">Cultos</a></li>
+              <li><a style="color:#87595b" href="cultos.php">Cultos</a></li>
 
-              <li <? echo $ativoministerios ?><a style="color:#87595b" href="ministerios.php">Ministérios</a></li>
+              <li><a style="color:#87595b" href="ministerios.php">Ministérios</a></li>
 
-              <li <? echo $ativocontato ?><a style="color:#87595b" href="contato.php">Contato</a></li>
+              <li><a style="color:#87595b" href="contato.php">Contato</a></li>
 
-              <li <? echo $ativorepresart ?><a style="color:#87595b" href="represart.php">RepresArt</a></li>                     
+              <li><a style="color:#87595b" href="represart.php">RepresArt</a></li>                     
             </ul>
           </div>
         </div>        
       </nav>
     </body>
 
-    <div style="padding-bottom: 14.5em"></div>  
+    <div style="padding-bottom: 14.5em"></div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
