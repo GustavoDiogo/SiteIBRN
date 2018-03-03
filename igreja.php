@@ -7,10 +7,10 @@
 </div>
 
 <div style="background-color:#f2d0d4;border-radius: 10px">
-  <object name="alvo" style="width: 100%;height: 400px" frameborder="0" data="conteudo-igreja.php" id="theframe"></object>               
+  <object name="alvo" style="width: 100%;height: 512px" frameborder="0" data="conteudo-igreja.php" id="theframe"></object>               
   <script>
   var _theframe = document.getElementById("theframe");
-  _theframe.contentWindow.location.href = _theframe.src;
+  _theframe.contentWindow.data = _theframe.src;
   </script>
 </div> 
 <?php include("rodape.php");?>
