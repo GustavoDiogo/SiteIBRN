@@ -1,9 +1,5 @@
-
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,53 +26,12 @@
 <!-- End Piwik Code --> 
 
 <style type="text/css">
-  
-  
-  .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+  li:hover {    
+    background-color:#87595b;
+    border-radius: 100px;
   }
-  
-  .foto-bloco{
-    padding-bottom:7px;
-    padding-top:5px;
-  
-  }
-  
-  .col-center{
-  margin:0 auto;
-  } 
+</style>
 
-  @media (min-width: 1200px) {
-    
-    .blocos{
-    margin-left:15px;
-    }
-    
-    .blocos2{
-    margin-left:15px;
-    margin-top:30px;
-    }
-    
-  }
-  
-  .display-table{
-    display: table;
-    table-layout: fixed;
-  }
-
-  .display-cell{
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-  }
-  .list-unstyled li{
-    margin-bottom:5px;
-  }
-  
-  </style>
-    
   </head>
   <body>  
       <nav class="navbar navbar-default navbar-fixed-top" style="border-bottom-right-radius:60px;border-bottom-left-radius:60px;background-color:#ffe2e4">  
@@ -97,22 +52,22 @@
           <div id="navbar" class="navbar-collapse collapse">    
           <div style="padding-bottom: 1em"></div>     
             <ul class="nav navbar-nav" style="max-height: 100px"> 
-            <div style="padding-bottom: 0.5em"></div>               
-              <li class="active"><a style='background-color:#87595b;color:white;border-radius:25px' href="index.php">Home</a></li>
+            <div style="padding-bottom: 0.5em"></div>                            
+              <li><a href="index.php">Home</a></li>
 
-              <li><a style="color:#87595b" href="igreja.php">A Igreja</a></li>
+              <li><a href="igreja.php">A Igreja</a></li>
 
-              <li><a style="color:#87595b" href="ebd.php">Escola Bíblica</a></li>
+              <li><a href="ebd.php">Escola Bíblica</a></li>
 
-              <li><a style="color:#87595b" href="devocionais.php">Devocionais</a></li>
+              <li><a href="devocionais.php">Devocionais</a></li>
 
-              <li><a style="color:#87595b" href="cultos.php">Cultos</a></li>
+              <li><a href="cultos.php">Cultos</a></li>
 
-              <li><a style="color:#87595b" href="ministerios.php">Ministérios</a></li>
+              <li><a href="ministerios.php">Ministérios</a></li>
 
-              <li><a style="color:#87595b" href="contato.php">Contato</a></li>
+              <li><a href="contato.php">Contato</a></li>
 
-              <li><a style="color:#87595b" href="represart.php">RepresArt</a></li>                     
+              <li><a href="represart.php">RepresArt</a></li>                     
             </ul>
           </div>
         </div>        
