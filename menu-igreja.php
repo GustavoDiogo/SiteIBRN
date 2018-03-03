@@ -1,19 +1,24 @@
+<style type="text/css">
+	.navbar-igreja{
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align:center;
+	}	
+	.navbar-igreja > ul > li:hover {
+		background-color:#87595b;
+    	border-radius: 50px;
+	}	
+</style>
 
-                
-                
-                <ul class="list-unstyled" style="margin-bottom:30px;">
-                <li><img src="imagens/icone_menu_meio.gif"><a href="conteudo-igreja-direita.php" target="alvo" style="color:#FFFFFF;"> 
-A IGREJA
-                </a> </li>
-                <li><img src="imagens/icone_menu_meio.gif"><a href="conteudo-igreja-pastor.php" target="alvo" style="color:#FFFFFF;"> PASTOR</a></li>
-                <li><img src="imagens/icone_menu_meio.gif"><a href="conteudo-igreja-escrituras.php" target="alvo" style="color:#FFFFFF;"> EXAME DAS ESCRITURAS</a></li>
-                <li><img src="imagens/icone_menu_meio.gif"><a href="conteudo-igreja-compromisso-social.php" target="alvo" style="color:#FFFFFF;"> COMPROMISSO SOCIAL</a></li>
-                <li><img src="imagens/icone_menu_meio.gif"><a href="conteudo-igreja-comente.php" target="alvo" style="color:#FFFFFF;"> COMENTE</a></li>
-                </ul>
-                
-                
-                
-        
-                 <img src="imagens/IGREJA/IGREJA_img_lateral_esq.jpg" class="img-thumbnail" style="background-color: #78373f; vertical-align: bottom;display: table-cell;" alt="...">
 
-                
+	<div class="navbar navbar-default" style="background-color: #78373f;border: none ;border-radius: 25px">
+		<div class="navbar-collapse navbar-igreja">		  
+			<ul class="nav navbar-nav">				
+				<li><a href="conteudo-igreja.php" target="alvo" style="color: white"> A Igreja</a></li>
+				<li><a href="conteudo-igreja-pastor.php" target="alvo" style="color: white"> Pastor</a></li>
+				<li><a href="conteudo-igreja-escrituras.php" target="alvo" style="color: white"> Exame das Escrituras</a></li>
+				<li><a href="conteudo-igreja-compromisso-social.php" target="alvo" style="color: white"> Compromisso Social</a></li>
+				<li><a href="conteudo-igreja-comente.php" target="alvo" style="color: white"> Comente</a></li>				
+			</ul>			
+		</div>
+	</div>	
