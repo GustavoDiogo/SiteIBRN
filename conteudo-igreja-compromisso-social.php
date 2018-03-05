@@ -3,7 +3,7 @@
 	<font color="#78373f" face="Verdana"><h3>Compromisso Social</h3></font>  
 </div>
 
-<div style="justify-content: flex-start">
+<div style="justify-content: flex-start;text-align: justify;text-justify: inter-word">
 	<!-- Conteúdo -->
 	<font color="black" face="arial">	 
 		<p style="text-indent: 20px">
