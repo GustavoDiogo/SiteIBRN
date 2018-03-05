@@ -25,10 +25,10 @@
 </script>
 <!-- End Piwik Code --> 
 
-<style type="text/css">
-  li:hover {    
+<style type="text/css"> 
+  .header > li:hover {    
     background-color:#87595b;
-    border-radius: 100px;
+    border-radius: 50px;
   }
 </style>
 
@@ -51,7 +51,7 @@
         <div class="container">
           <div id="navbar" class="navbar-collapse collapse">    
           <div style="padding-bottom: 1em"></div>     
-            <ul class="nav navbar-nav" style="max-height: 100px"> 
+            <ul class="nav navbar-nav header" style="max-height: 100px"> 
             <div style="padding-bottom: 0.5em"></div>                            
               <li><a href="index.php">Home</a></li>
 
