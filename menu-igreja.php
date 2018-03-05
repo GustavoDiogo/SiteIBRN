@@ -22,10 +22,10 @@
 	<div class="navbar-collapse navbar-igreja">		  
 		<ul class="nav navbar-nav">				
 			<li><a href="conteudo-igreja.php" target="alvo" style="color: white" onClick="scrollDown(400)"> A Igreja</a></li>
-			<li><a href="conteudo-igreja-pastor.php" target="alvo" style="color: white"> Pastor</a></li>
-			<li><a href="conteudo-igreja-escrituras.php" target="alvo" style="color: white"> Exame das Escrituras</a></li>
-			<li><a href="conteudo-igreja-compromisso-social.php" target="alvo" style="color: white"> Compromisso Social</a></li>
-			<li><a href="conteudo-igreja-comente.php" target="alvo" style="color: white"> Comente</a></li>				
+			<li><a href="conteudo-igreja-pastor.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Pastor</a></li>
+			<li><a href="conteudo-igreja-escrituras.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Exame das Escrituras</a></li>
+			<li><a href="conteudo-igreja-compromisso-social.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Compromisso Social</a></li>
+			<li><a href="conteudo-igreja-comente.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Comente</a></li>				
 		</ul>			
 	</div>
 </div>	
