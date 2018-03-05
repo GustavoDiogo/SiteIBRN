@@ -16,9 +16,9 @@
 	<div align="center">
 		<div style="padding-bottom: 14em"></div> 
 		<font color="black" face="arial">
-			"Não há salvação em nenhum outro, pois, debaixo do céu não há nenhum outro nome dado aos homens pelo qual devamos ser salvos" <b>(Atos 4.12)</b>.
+			<i>"Não há salvação em nenhum outro, pois, debaixo do céu não há nenhum outro nome dado aos homens pelo qual devamos ser salvos"</i><b>(Atos 4.12)</b>.
 			<br><br>
-			"Pois Ele é a nossa paz, o qual de ambos fez um e destruiu a barreira, o muro da inimizade" <b>(Efésios 2.14)</b>.
+			<i>"Pois Ele é a nossa paz, o qual de ambos fez um e destruiu a barreira, o muro da inimizade"</i><b>(Efésios 2.14)</b>.
 			<br><br>
 		</font>
 	</div>
