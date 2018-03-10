@@ -21,12 +21,12 @@
 <div class="navbar navbar-default" style="background-color:#f57f73;border: none ;border-radius: 25px">
 	<div class="navbar-collapse navbar-ebd">		  
 		<ul class="nav navbar-nav">
-			<li><a href="conteudo-ebd.php" target="alvo" style="color: white" onClick="scrollDown(400)"> EBD</a></li>				
-			<li><a href="conteudo-ebd-salas.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Salas</a></li>
-			<li><a href="conteudo-ebd-junte-se.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Junte-se</a></li>
-			<li><a href="conteudo-ebd-descobrir.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Descobrir</a></li>
-			<li><a href="conteudo-ebd-alimentar.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Alimentar-se</a></li>
-			<li><a href="conteudo-ebd-comente.php" target="alvo" style="color: white" onClick="scrollDown(400)"> Comente</a></li>				
+			<li><a href="conteudo-ebd.php" target="alvo" style="color: white" onClick="scrollDown(445)"> EBD</a></li>				
+			<li><a href="conteudo-ebd-salas.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Salas</a></li>
+			<li><a href="conteudo-ebd-junte-se.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Junte-se</a></li>
+			<li><a href="conteudo-ebd-descobrir.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Descobrir</a></li>
+			<li><a href="conteudo-ebd-alimentar.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Alimentar-se</a></li>
+			<li><a href="conteudo-ebd-comente.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Comente</a></li>				
 		</ul>			
 	</div>
 </div>
