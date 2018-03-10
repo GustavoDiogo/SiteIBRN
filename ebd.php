@@ -3,14 +3,13 @@
 <div align="center" style="background-color:#f57f73;border-radius: 25px">  
   <div style="padding-bottom: 1em"></div>
   <!-- Para alterar a imagem da página, basta mudar o caminho do src para outra imagem  -->
-  <img src="imagens/EBD/IMG_TELA_EBD.jpg" class="img-responsive" alt="...">
-  <div style="padding-bottom: 1em"></div>   
+  <img src="imagens/EBD/IMG_TELA_EBD.jpg" class="img-responsive" alt="...">   
   <?php include("menu-ebd.php");?>      
 </div>
 
 <!-- Cor do fundo do texto após imagem e barra de navegação -->
 <div style="background-color:#ffd0cc;border-radius: 10px">
-<iframe name="alvo" style="width: 100%;height: 512px" frameborder="0" scrolling="yes" src="conteudo-ebd.php" id="theframe"></iframe>
+  <iframe name="alvo" style="width: 100%;height: 512px" frameborder="0" scrolling="yes" src="conteudo-ebd.php" id="theframe"></iframe>
 </div>
 
 <script>
