@@ -9,7 +9,7 @@
 </div>
 
 <!-- Cor do fundo do texto após imagem e barra de navegação -->
-<div style="background-color:#f2d0d4;border-radius: 10px">
+<div style="background-color:#ffd0cc;border-radius: 10px">
   <iframe name="alvo" style="width: 100%;height: 512px" frameborder="0" scrolling="yes" src="conteudo-igreja.php" id="theframe"></iframe>
 </div>
 
