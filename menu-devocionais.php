@@ -21,10 +21,10 @@
 <div class="navbar navbar-default" style="background-color:#632731;border: none ;border-radius: 25px">
 	<div class="navbar-collapse navbar-devocionais">		  
 		<ul class="nav navbar-nav">			
-			<li><a href="devocional-atual.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Devocional Atual</a></li>				
-			<li><a href="conteudo-devocionais-anteriores.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Anteriores</a></li>
-			<li><a href="conteudo-devocionais-whatsapp.php" target="alvo" style="color: white" onClick="scrollDown(445)"> WhatsApp</a></li>
-			<li><a href="conteudo-devocionais-comente.php" target="alvo" style="color: white" onClick="scrollDown(445)"> Comente</a></li>				
+			<li><a href="devocional-atual.php" target="alvo" style="color: white" onClick="scrollDown(340)"> Devocional Atual</a></li>				
+			<li><a href="conteudo-devocionais-anteriores.php" target="alvo" style="color: white" onClick="scrollDown(340)"> Anteriores</a></li>
+			<li><a href="conteudo-devocionais-whatsapp.php" target="alvo" style="color: white" onClick="scrollDown(340)"> WhatsApp</a></li>
+			<li><a href="conteudo-devocionais-comente.php" target="alvo" style="color: white" onClick="scrollDown(340)"> Comente</a></li>				
 		</ul>			
 	</div>
 </div>
