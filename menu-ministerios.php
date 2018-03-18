@@ -1,18 +1,32 @@
+<style type="text/css">
+	.navbar-ministerios{
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align:center;
+	}
+	/* Cor da seleção com o mouse em cima background-color*/
+	.navbar-ministerios > ul > li:hover {
+		background-color:#ad9268;
+		border-radius: 50px;
+	}	
+</style>
 
-                
-                
-                <ul class="list-unstyled" style="margin-bottom:30px;">
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-direita.php" target="alvo"> MINISTERIOS</a></li>
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-ajudar.php" target="alvo"> COMO AJUDAR</a></li>
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-responsaveis.php" target="alvo"> RESPONSÁVEIS</a></li>
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-atuamos.php" target="alvo"> COMO ATUAMOS</a></li>
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-diferencial.php" target="alvo"> NOSSO DIFERENCIAL</a></li>
-                <li><img src="imagens/MINISTERIOS/icone_lat_ministerios.gif"><a href="conteudo-ministerios-comente.php" target="alvo"> COMENTE</a></li>
-                </ul>
-                
-                
-                
-        
-                 <img src="imagens/MINISTERIOS/MINISTERIOS_img_lateral_esq.jpg" class="img-thumbnail" style="background-color: #9c835b; vertical-align: bottom;display: table-cell;" alt="...">
+<script type="text/javascript">
+	function scrollDown(pixels){		
+		$('html,body').animate({ scrollTop: pixels }, 'slow');
+	}
+</script>
 
-                
+<!-- Cor da barra de navegação background-color -->
+<div class="navbar navbar-default" style="background-color:#9c835b;border: none ;border-radius: 25px">
+	<div class="navbar-collapse navbar-ministerios">		  
+		<ul class="nav navbar-nav">
+			<li><a href="conteudo-ministerios.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Ministérios</a></li>				
+			<li><a href="conteudo-ministerios-ajudar.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Como ajudar</a></li>
+			<li><a href="conteudo-ministerios-responsaveis.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Responsáveis</a></li>
+			<li><a href="conteudo-ministerios-atuamos.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Como atuamos</a></li>
+			<li><a href="conteudo-ministerios-diferencial.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Nosso diferencial</a></li>
+			<li><a href="conteudo-ministerios-comente.php" target="alvo" style="color: white" onClick="scrollDown(437)"> Comente</a></li>				
+		</ul>			
+	</div>
+</div>
