@@ -18,7 +18,7 @@
 </script>
 
 <!-- Cor da barra de navegação background-color -->
-<div class="navbar navbar-default" style="background-color: #78373f;border: none ;border-radius: 25px">
+<div class="navbar navbar-default" style="background-color:#78373f;border: none ;border-radius: 25px">
 	<div class="navbar-collapse navbar-igreja">		  
 		<ul class="nav navbar-nav">				
 			<li><a href="conteudo-igreja.php" target="alvo" style="color: white" onClick="scrollDown(400)"> A Igreja</a></li>
