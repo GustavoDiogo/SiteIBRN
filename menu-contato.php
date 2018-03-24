@@ -18,7 +18,7 @@
 </script>
 
 <!-- Cor da barra de navegação background-color -->
-<div class="navbar navbar-default" style="background-color:#632731;border: none ;border-radius: 25px">
+<div class="navbar navbar-default" style="background-color:#78373f;border: none ;border-radius: 25px">
 	<div class="navbar-collapse navbar-contato">		  
 		<ul class="nav navbar-nav">
 			<li><a href="conteudo-contato-fale.php" target="alvo" style="color: white" onClick="scrollDown(320)"> Fale conosco</a></li>				
