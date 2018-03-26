@@ -1,3 +1,0 @@
-tas2580_userinfo:
-    pattern: /userinfo/{user_id}
-    defaults: { _controller: tas2580.userinfo.user:info }
