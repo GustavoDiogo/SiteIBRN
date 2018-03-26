@@ -1,34 +1,21 @@
-<style type="text/css">
-  .oficina {
-   text-align: center;
-   font-size: 14px;
- }
- .VIDEO {
-   text-align: center;
- }
- .coremail {
-   color: #00F;
- }
- .centro {
-   text-align: center;
-   font-size: 12px;
- }
-</style>
-<esquerda>
-  <strong><font color="black" face="Verdana">
-  </font></strong>
-  <center>
-    <p><strong><font color="black" face="Verdana" class="VIDEO"><span class="centro">Oficina de Teatro</span></font></strong></p>
-    <table width="662" border="0" cellspacing="0">
-      <tr>
-        <td width="501"><iframe src="https://www.youtube.com/embed/AeEYF6nkyEA?rel=0 &autoplay=1&rel=" width="480" height="270" frameborder="0" class="VIDEO" allowfullscreen></iframe></td>
-        <td width="157"><p class="centro">O ministério de teatro Represart te convida para uma oficina onde vamos entender um pouco melhor o teatro e vivenciar com estudos práticos esse lindo universo musical.<br />
-          Fique ligado aqui no site, em breve divulgaremos as datas de inicio das atividades!
-          Para maiores informações, entre em contato conosco pelo e-mail,<br />
-          (<span class="coremail"> represart@represanova.com</span> )! <br />
-          A ARTE DE EXPRESSAR A GRAÇA DE DEUS!</p></td>
-        </tr>
-      </table>
-    </center>
-    <strong><font color="black" face="Verdana"></font></strong>
-    <h4 class="centro">&nbsp;</h4>
+<div align="center">
+  <!-- Cor do título -->
+  <font color="black" face="Verdana"><h3>Oficina de Teatro</h3></font>  
+</div>
+
+<div style="justify-content: flex-start;text-align: justify;text-justify: inter-word">
+  <!-- Conteúdo -->
+  <font color="black" face="arial"> 
+    <div align="center">
+      <p style="text-indent: 20px">
+        O ministério de teatro Represart te convida para uma oficina onde vamos entender um pouco melhor o teatro e vivenciar com estudos práticos esse lindo universo musical.
+      </p>    
+      <p style="text-indent: 20px">
+        Fique ligado aqui no site, em breve divulgaremos as datas de inicio das atividades!
+        Para maiores informações, entre em contato conosco pelo e-mail: <span style="color: #00F">represart@represanova.com</span> 
+      </p>
+      <iframe src="https://www.youtube.com/embed/AeEYF6nkyEA?rel=0 &autoplay=1&rel=" width="720" height="480" style="max-width: 100%" frameborder="0" class="VIDEO" allowfullscreen></iframe>
+    </div> 
+  </font>
+  <div style="padding-bottom: 1em"></div>   
+</div>
