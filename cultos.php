@@ -1,6 +1,6 @@
 ﻿<?php include("topo.php");?> 
 <!-- Cor do fundo da imagem da página background-color -->
-<div align="center" style="background-color:#632731;border-radius: 25px">  
+<div align="center" style="background-color:#632731;border-radius: 15px">  
   <div style="padding-bottom: 1em"></div>
   <!-- Para alterar a imagem da página, basta mudar o caminho do src para outra imagem  -->
   <img src="imagens/CULTOS/IMG_TELA_CULTOS.jpg"" class="img-responsive" alt="...">   

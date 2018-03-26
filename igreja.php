@@ -1,6 +1,6 @@
 ﻿<?php include("topo.php");?> 
 <!-- Cor do fundo da imagem da página background-color -->
-<div align="center" style="background-color:#78373f;border-radius: 25px">  
+<div align="center" style="background-color:#78373f;border-radius: 15px">  
   <div style="padding-bottom: 1em"></div>
   <!-- Para alterar a imagem da página, basta mudar o caminho do src para outra imagem  -->
   <img src="imagens/IGREJA/IMG_TELA_IGREJA.jpg" class="img-responsive" alt="...">
