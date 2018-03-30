@@ -59,29 +59,29 @@ include("topo.php");?>
     <li data-target="#myCarousel" data-slide-to="5"></li>
   </ol>
 
-  <div class="carousel-inner" style="max-width: 100%;max-height: 768px" align="center">
+  <div class="carousel-inner" style="max-width: 100%" align="center">
     <div class="item active">
-      <img src="imagens/pascoa2018.jpg" style="height: 512px">
+      <img src="imagens/pascoa2018.jpg">
     </div>
 
     <div class="item">
-      <img src="imagens/cultodoamigo2018.jpg" style="height: 512px">
+      <img src="imagens/cultodoamigo2018.jpg">
     </div>
 
     <div class="item">
-      <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg" style="height: 512px"></a>
+      <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg"></a>
     </div>
 
     <div class="item">
-      <a href="eco.php"><img src="imagens/BANNERS/banner_eco.jpg" style="height: 512px"></a>
+      <a href="eco.php"><img src="imagens/BANNERS/banner_eco.jpg"></a>
     </div>
 
     <div class="item">
-      <a href="missoes.php"><img src="imagens/BANNERS/banner_missoes.jpg" style="height: 512px"></a>
+      <a href="missoes.php"><img src="imagens/BANNERS/banner_missoes.jpg"></a>
     </div>
 
     <div class="item">
-      <a href="ebd.php"><img src="imagens/BANNERS/banner_ebd.jpg" style="height: 512px"></a>
+      <a href="ebd.php"><img src="imagens/BANNERS/banner_ebd.jpg"></a>
     </div>
   </div>
 
