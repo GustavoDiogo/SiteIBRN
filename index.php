@@ -49,101 +49,68 @@ include("topo.php");?>
   
 </style>
 
-<!-- Example row of columns -->
-<div class="row">
-  <div class="col-lg-9">
-    <div class="well well-sm" style="background-color:#632731;">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
 
-         <div class="item active" align="center">
-           <a><img src="imagens/pascoa2018.jpg" style="max-width: 100%" width="340" alt="..."></a>
-         </div>
-
-         <div class="item">
-          <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg" alt="..."></a>
-        </div>
-
-        <div class="item">
-          <a href="eco.php"><img src="imagens/BANNERS/banner_eco.jpg" alt="..."></a>
-        </div>
-
-        <div class="item">
-          <a href="missoes.php"><img src="imagens/BANNERS/banner_missoes.jpg" alt="..."></a>
-        </div>
-
-        <div class="item">
-          <a href="ebd.php"><img src="imagens/BANNERS/banner_ebd.jpg" alt="..."></a>
-        </div>
-
-
-      </div>
-
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-
-        <span class="sr-only">Próximo</span>
-      </a>
+  <div class="carousel-inner" style="max-width: 100%;max-height: 768px" align="center">
+    <div class="item active">
+      <img src="imagens/pascoa2018.jpg" style="height: 512px">
     </div>
 
+    <div class="item">
+      <img src="imagens/cultodoamigo2018.jpg" style="height: 512px">
+    </div>
 
+    <div class="item">
+      <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg" style="height: 512px"></a>
+    </div>
+
+    <div class="item">
+      <a href="eco.php"><img src="imagens/BANNERS/banner_eco.jpg" style="height: 512px"></a>
+    </div>
+
+    <div class="item">
+      <a href="missoes.php"><img src="imagens/BANNERS/banner_missoes.jpg" style="height: 512px"></a>
+    </div>
+
+    <div class="item">
+      <a href="ebd.php"><img src="imagens/BANNERS/banner_ebd.jpg" style="height: 512px"></a>
+    </div>
   </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="border-radius: 10px">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next" style="border-radius: 10px">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
 </div>
 
-<div class="col-lg-3">
-  <div class=" well well-lg" style="background-color:#632731; color:#FFF; padding:20px; height:362px" >
+<div style="padding-bottom: 2em"></div>
 
-    <div class="row" style="padding-bottom:6px;">
-
-      <div class="col-lg-4">
-        <img src="imagens/icone_devocional.png">
-      </div>
-
-      <div class="col-lg-8">
-        DEVOCIONAL<br>
-        DA SEMANA
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-12" >
-        <p><strong>
-          <!-- APLICAR O TÍTULO DA DEVOCIONAL -->
-          O caminho da salvação passa pela morte de Cristo<br>
-
-        </strong> 
-        <!-- APLICAR A DIVISA DE BASE PARA DEVOCIONAL -->
-        (Lucas 2. 34, 35)</p> 
-        <p><small>
-
-          <!-- APLICAR O TEXTO DA DEVOCIONAL, CUIDADO PARA NÃO ESTOURAR O ESPAÇO RESERVADO -->
-          Que pai não gosta de receber elogio acerca de seu filho? Simeão fala algo de gelar o coração da uma mãe. Ele diz, Maria, para que essa salvação seja obtida, o seu bebê vai ter que morrer.<br>
-          O verso 34 diz que vai haver uma contradição....
-
-          <!-- AQUI É O LINK "CONTINUA". VAI PARA A PÁGINA DEVOCIONAIS-->
-          <a href="devocionais.php">CONTINUA</a></small>
-        </p> 
-        
-        
-        <!-- AQUI É O LINK PARA O ÁUDIO, DEVEMOS SEGUIR ORGANIZAÇÃO -->
-        <center><a href="devocionais/2016/audios/20161225.mp3" target="_blank">
-          <img src="imagens/icone_player.png"></a></center>
-        </div>
-
-        
-      </div>
-    </div>
-  </div>      
-
-</div>  
-
+<div style="background-color:#632731; color:#FFF; max-width: 100%">
+  <div style="padding: 1em 1em 1em 1em">
+    <img src="imagens/icone_devocional.png"> Devocional da Semana
+  </div>
+  <!-- Título -->
+  <div align="center"><h3>O caminho da salvação passa pela morte de Cristo <b>(Lucas 2. 34, 35)</b></h3></div>
+  <!-- Resumo -->
+  <div style="padding: 1em 1em 1em 1em" style="justify-content: flex-start;text-align: justify;text-justify: inter-word">
+   Que pai não gosta de receber elogio acerca de seu filho? Simeão fala algo de gelar o coração da uma mãe. Ele diz, Maria, para que essa salvação seja obtida, o seu bebê vai ter que morrer.<br>
+   O verso 34 diz que vai haver uma contradição....
+   <a href="devocionais.php">CONTINUA</a>
+   <a href="devocionais/2016/audios/20161225.mp3" target="_blank"><img src="imagens/icone_player.png"></a>
+  </div>
+</div>
 
 <!-- bloco 1 a 4 -->
 <div class="row blocos" style="margin-top:30px;"  >
