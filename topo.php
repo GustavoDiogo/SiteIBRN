@@ -7,9 +7,9 @@
 
   <title>Represa Nova</title>
 
-  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/justified-nav.css" rel="stylesheet">   
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">  
+  <link href="css/justified-nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <script type="text/javascript">
     var _paq = _paq || [];
@@ -36,7 +36,7 @@
 </head>
 <body>  
   <!-- Cor do fundo da barra de navegação fixa background-color -->
-  <nav class="navbar navbar-default navbar-fixed-top" style="border-bottom-right-radius:40px;border-bottom-left-radius:40px;background-color:#ffe2e4">  
+  <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#ffe2e4">  
    <div class="container">      
     <div class="navbar-header">
       <!-- Cor do botão quando vai para versão mobile background-color -->
