@@ -1,19 +1,30 @@
+<style type="text/css">
+    .navbar-represart{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align:center;
+    }
+    /* Cor da seleção com o mouse em cima background-color*/
+    .navbar-represart > ul > li:hover {
+        background-color:#aaa9a9;
+        border-radius: 50px;
+    }   
+</style>
 
-                
-                
-                <ul class="list-unstyled" style="margin-bottom:30px;">
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif"><a href="conteudo-represart-direita.php" target="alvo"> REPRESART</a></li>
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif" alt="HISTÓRICO" /> <a href="conteudo-historico-direita.php" target="alvo">HISTÓRICO</a></li>
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif"> <a href="conteudo-espetaculo-direita.php" target="alvo">ESPETÁCULOS</a></li>
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif" alt="videos" /> VÍDEOS<br />
-                </li>
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif"><a href="conteudo-oficina-direita.php" target="alvo"> OFICINA</a></li>
-                <li><img src="imagens/REPRESART/icone_lat_teatro.gif" alt="JUNTE-SE" /> JUNTE-SE</li>
-                </ul>
-                
-                
-                
-        
-                 <img src="imagens/REPRESART/REPRESART_img_lateral_esq.jpg" class="img-thumbnail" style="background-color: #818286; vertical-align: bottom;display: table-cell;" alt="...">
+<script type="text/javascript">
+    function scrollDown(pixels){        
+        $('html,body').animate({ scrollTop: pixels }, 'slow');
+    }
+</script>
 
-                
+<!-- Cor da barra de navegação background-color -->
+<div class="navbar navbar-default" style="background-color:#818286;border: none ;border-radius: 25px">
+    <div class="navbar-collapse navbar-represart">       
+        <ul class="nav navbar-nav">             
+            <li><a href="conteudo-represart.php" target="alvo" style="color: white" onClick="scrollDown(355)"> RepresArt</a></li>
+            <li><a href="conteudo-historico.php" target="alvo" style="color: white" onClick="scrollDown(355)"> Histórico</a></li>
+            <li><a href="conteudo-espetaculo.php" target="alvo" style="color: white" onClick="scrollDown(355)"> Espetáculos</a></li>
+            <li><a href="conteudo-oficina.php" target="alvo" style="color: white" onClick="scrollDown(355)"> Oficina</a></li>               
+        </ul>           
+    </div>
+</div>   

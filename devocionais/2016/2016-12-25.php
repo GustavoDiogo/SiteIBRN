@@ -1,6 +1,6 @@
 <center>
   <h3><font color="black" face="Verdana"><strong>25/12/2016 - O caminho da salvação passa pela morte de Cristo</strong><br>
-  Lucas 2. 34, 35 - </font><a href="audios/20161225.mp3" target="_blank">Áudio: <img src="icone_player_pq.png"></a></h3></center></font>
+  Lucas 2. 34, 35 - </font><a href="devocionais/2016/audios/20161225.mp3" target="_blank">Áudio: <img src="devocionais/2016/icone_player_pq.png"></a></h3></center></font>
                  
                  <small><font color="black" face="arial">
                  <h4>
