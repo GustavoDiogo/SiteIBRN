@@ -11,14 +11,11 @@
   </ol>
 
   <div class="carousel-inner" style="max-width: 100%" align="center">
+  <!-- O final active indica a primeira foto a aparecer -->
     <div class="item active">
-      <img src="imagens/pascoa2018.jpg" style="border-radius: 10px">
-    </div>
-
-    <div class="item">
       <img src="imagens/cultodoamigo2018.jpg" style="border-radius: 10px">
     </div>
-
+  <!-- Daqui em diante são slides adicionais -->
     <div class="item">
       <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg" style="border-radius: 10px"></a>
     </div>
@@ -65,88 +62,104 @@
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color: #818286;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#bdbec0">Teatro RepresArt</h4>
     <div style="background-color:#818286;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#bdbec0;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="represart.php"><img src="imagens/img_teatro_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       A equipe de teatro Represart representa por meio artístico a graça de Deus.
     </div> 
   </div>  
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#008081;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#008081">Jovens</h4>
     <div style="background-color:#008081;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#40a09f;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="jovens.php"><img src="imagens/img_jovens_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Esses jovens entenderam, aceitaram e agora trabalham para que a sua geração conheça Jesus.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#f6eb29;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#f6eb29">Represa Kids</h4>
     <div style="background-color:#f6eb29;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#fef568;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="kids.php"><img src="imagens/img_kids_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       O crescimento espiritual dessas ovelhinhas é nossa responsabilidade e missão.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#d2232a;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#d2232a">Grupo ECO</h4>
     <div style="background-color:#d2232a;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#db634b;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="eco.php"><img src="imagens/img_eco_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Pequenos grupos nos lares, onde todos participam e todos aprendem.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#eea03e;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#eea03e">Ação Social</h4>
     <div style="background-color:#eea03e;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#f1b366;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="acao_social.php"><img src="imagens/img_social_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Cuidar com amor, observando as necessidades humanas e espirituais.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#384a7c;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#384a7c">Homens</h4>
     <div style="background-color:#384a7c;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#69779c;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="homens.php"><img src="imagens/img_homens_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Homens unidos e com visão ministerial.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#9400d4;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#9400d4">Mulheres</h4>
     <div style="background-color:#9400d4;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#b54de0;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="mulheres.php"><img src="imagens/img_mulheres_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Preciosas, sábias e importantes na harmonia familiar e no evangelismo.
     </div> 
   </div>
 
   <div style="padding: 1em 1em 1em 1em">   
     <div style="background-color:#3f6631;height:30px;width:30px;float: left;margin-right: 10px"></div>
+    <!-- Título -->
     <h4 class="nounderline" style="color:#3f6631">Missões</h4>
     <div style="background-color:#3f6631;height:300px;width:30px;float: left;margin-right: 10px"></div>
     <div style="padding: 1em 1em 1em 1em;background-color:#b1b872;height: 300px;width: 256px;justify-content: flex-start;text-align: justify;text-justify: inter-word" align="center">      
       <a href="missoes.php"><img src="imagens/img_missoes_bloco.jpg" class="img-thumbnail"></a>
       <div style="padding-bottom: 1em"></div>
+      <!-- Descrição -->
       Empenho e participação de Represa Nova no evangelismo mundial.
     </div> 
   </div>                    
