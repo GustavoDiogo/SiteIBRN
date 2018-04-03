@@ -7,14 +7,18 @@
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
     <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
   </ol>
 
   <div class="carousel-inner" style="max-width: 100%" align="center">
-  <!-- O final active indica a primeira foto a aparecer -->
+    <!-- O final active indica a primeira foto a aparecer -->
     <div class="item active">
       <img src="imagens/cultodoamigo2018.jpg" style="border-radius: 10px">
     </div>
-  <!-- Daqui em diante são slides adicionais -->
+    <!-- Daqui em diante são slides adicionais -->
+    <div class="item">
+      <img src="imagens/cafedoshomensabril.jpg" style="border-radius: 10px">
+    </div>
     <div class="item">
       <a href="represart.php"><img src="imagens/BANNERS/banner_teatro.jpg" style="border-radius: 10px"></a>
     </div>
